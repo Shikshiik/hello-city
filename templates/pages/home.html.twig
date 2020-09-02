@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Hello from Sainte Catherine de Fierbois!</h1>
+
+    <p> It's currently {{ 'now'|date('h:i A', 'Europe/Paris') }}.</p>
+
+
+    <footer>
+        <p>
+            &copy; Copyright {{ 'now'|date('Y', 'Europe/Paris') }} 
+            &middot; <a href="#">About Us</a>
+        </p>
+    </footer>
+
+{% endblock %}
